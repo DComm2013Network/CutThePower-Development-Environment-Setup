@@ -44,7 +44,7 @@ fi
 echo "------------------------------------------------"
 echo "Installing SDL2, SDL2_image, SDL2_mixer.";
 echo "------------------------------------------------"
-yum install -y SDL2.x86_64 SDL2-devel.x86_64 SDL2_image.x86_64 SDL2_mixer.x86_64 SDL2_image-devel.x86_64 SDL2_mixer-devel.x86_64
+yum install -y SDL2.x86_64 SDL2-devel.x86_64 SDL2_image.x86_64 SDL2_mixer.x86_64 SDL2_image-devel.x86_64 SDL2_mixer-devel.x86_64 freetype-devel.x86_64
 
 echo "------------------------------------------------"
 echo "Installing unzip";
