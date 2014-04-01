@@ -12,6 +12,7 @@
 #   - SDL2_mixer
 #   - SDL2_mixer-devel
 #   - SDL2_net
+#   - freetype-devel
 #   - SDL2_ttf
 # 
 # It also install the `unzip` package if it's not already
@@ -123,6 +124,7 @@ echo "Setting up SDL dependency path by making symlinks (hacky solution)"
 echo "------------------------------------------------"
 ln -s /usr/include/SDL2/* /usr/local/include/SDL2/
 ln -s /usr/local/lib/libSDL2_net* /usr/lib64/
+ln -s /usr/local/lib/libSDL2_ttf* /usr/lib64/
 
 echo "------------------------------------------------"
 echo "Trying ldconfig"
