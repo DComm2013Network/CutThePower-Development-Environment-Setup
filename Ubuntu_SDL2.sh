@@ -28,7 +28,7 @@
 #############################
 # Important Libraries
 #############################
-sudo apt-get install git unzip build-essential xorg-dev libudev-dev libts-dev libgl1-mesa-dev libglu1-mesa-dev libasound2-dev libpulse-dev libopenal-dev libogg-dev libvorbis-dev libaudiofile-dev libpng12-dev libfreetype6-dev libusb-dev libdbus-1-dev zlib1g-dev libdirectfb-dev libgles2-mesa-dev libaudio-dev libsndobj-dev libwebp-dev libtiff4-dev
+sudo apt-get install -y git unzip build-essential xorg-dev libudev-dev libts-dev libgl1-mesa-dev libglu1-mesa-dev libasound2-dev libpulse-dev libopenal-dev libogg-dev libvorbis-dev libaudiofile-dev libpng12-dev libfreetype6-dev libusb-dev libdbus-1-dev zlib1g-dev libdirectfb-dev libgles2-mesa-dev libaudio-dev libsndobj-dev libwebp-dev libtiff4-dev
 
 ##########################
 # Downloading SDL source
