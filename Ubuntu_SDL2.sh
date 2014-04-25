@@ -91,6 +91,15 @@ cd ..
 ######################
 sudo ldconfig
 
+####################################
+# Remove source files
+####################################
+rm -rf SDL2-2.0.3.zip SDL2-2.0.3
+rm -rf SDL2_ttf-2.0.12.zip SDL2_ttf-2.0.12
+rm -rf SDL2_net-2.0.0.zip SDL2_net-2.0.0
+rm -rf SDL2_mixer-2.0.0.zip SDL2_mixer-2.0.0
+rm -rf SDL2_image-2.0.0.zip SDL2_image-2.0.0
+
 ######################
 # Cloning GitHub repos
 ######################
